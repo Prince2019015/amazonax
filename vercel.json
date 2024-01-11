@@ -1,5 +1,14 @@
 {
   "version": 2,
+  "builds": [
+    {
+      "src": "backend/server.js",
+      "use": "@vercel/node",
+      "config": {
+        "cmd": "cd backend && npm install  && cd ../frontend && npm install && npm run build"
+      }
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
