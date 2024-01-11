@@ -1,0 +1,21 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "1.Introduction\r 2.Install Tools\r 3.Create react App\r 4.Create Git Repository",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prince2019015/amazona.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prince2019015/amazona/issues"
+  },
+  "homepage": "https://github.com/Prince2019015/amazona#readme"
+}
